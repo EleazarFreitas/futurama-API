@@ -18,7 +18,7 @@ class CharactersController extends Controller
                 "gender" => "Male",
                 "occupation" => "Delivery Boy/Pilot, Tentacle Pope of Universe Gamma (former)",
                 "origin" => "Earth",
-                "image" => __DIR__
+                "image" => $dirImage . "/Fry.png"
             ],
             [
                 "id" => 2,
