@@ -101,7 +101,7 @@ class CharactersController extends Controller
             ],
             [
                 "id" => 10,
-                "name" => "Carol",
+                "name" => "Carol Miller",
                 "nickname" => "Mom",
                 "species" => "Human",
                 "gender" => "Female",
