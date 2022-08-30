@@ -8,7 +8,7 @@ class CharactersController extends Controller
 {
     public function characters ()
     {
-        $dirImage = public_path('assets\img');
+        $dirImage = public_path('assets/img');
         return $characters = [
             [
                 "id" => 1,
@@ -18,7 +18,7 @@ class CharactersController extends Controller
                 "gender" => "Male",
                 "occupation" => "Delivery Boy/Pilot, Tentacle Pope of Universe Gamma (former)",
                 "origin" => "Earth",
-                "image" => $dirImage . "\Fry.png"
+                "image" => $dirImage . "/Fry.png"
             ],
             [
                 "id" => 2,
@@ -28,7 +28,7 @@ class CharactersController extends Controller
                 "gender" => "Female",
                 "occupation" => "Captain of the Planet Express Ship",
                 "origin" => "Earth",
-                "image" => $dirImage . "\Leela.png"
+                "image" => $dirImage . "/Leela.png"
             ],
             [
                 "id" => 3,
@@ -38,7 +38,7 @@ class CharactersController extends Controller
                 "gender" => "Male",
                 "occupation" => "Assistant Manager of Sales & Chef at Planet Express, Suicide booth construction worker (former)",
                 "origin" => "Earth",
-                "image" => $dirImage . "\Bender.png"
+                "image" => $dirImage . "/Bender.png"
             ],
             [
                 "id" => 4,
@@ -48,7 +48,7 @@ class CharactersController extends Controller
                 "gender" => "Female",
                 "occupation" => "Long-term Intern at Planet Express & Physicist intern to Professor Hubert J. Farnsworth",
                 "origin" => "Mars",
-                "image" => $dirImage . "\Amy.png"
+                "image" => $dirImage . "/Amy.png"
             ],
             [
                 "id" => 5,
@@ -58,7 +58,7 @@ class CharactersController extends Controller
                 "gender" => "Male",
                 "occupation" => "CEO/Owner of Planet Express, Lecturer at Mars University",
                 "origin" => "Earth",
-                "image" => $dirImage . "\ProfessorFarnsworth.png"
+                "image" => $dirImage . "/ProfessorFarnsworth.png"
             ],
             [
                 "id" => 6,
@@ -68,7 +68,7 @@ class CharactersController extends Controller
                 "gender" => "Male",
                 "occupation" => "Bureaucrat Grade 35 and accountant of the Planet Express delivery company",
                 "origin" => "Earth",
-                "image" => $dirImage . "\Hermes.png"
+                "image" => $dirImage . "/Hermes.png"
             ],
             [
                 "id" => 7,
@@ -78,7 +78,7 @@ class CharactersController extends Controller
                 "gender" => "Male",
                 "occupation" => "Staff doctor at the Planet Express delivery company",
                 "origin" => "Decapod 10",
-                "image" => $dirImage . "\Dr.Zoidberg.png"
+                "image" => $dirImage . "/Dr.Zoidberg.png"
             ],
             [
                 "id" => 8,
@@ -88,7 +88,7 @@ class CharactersController extends Controller
                 "gender" => "Male",
                 "occupation" => "DOOP Fourth Lieutenant",
                 "origin" => "Amphibios 9",
-                "image" => $dirImage . "\Kif.png"
+                "image" => $dirImage . "/Kif.png"
             ],
             [
                 "id" => 9,
@@ -98,7 +98,7 @@ class CharactersController extends Controller
                 "gender" => "Male",
                 "occupation" => "Captain of the DOOP starship Nimbus and high ranking general",
                 "origin" => "Earth",
-                "image" => $dirImage . "\Zapp.png"
+                "image" => $dirImage . "/Zapp.png"
             ],
             [
                 "id" => 10,
@@ -108,7 +108,7 @@ class CharactersController extends Controller
                 "gender" => "Female",
                 "occupation" => "Owner and CEO of MomCorp",
                 "origin" => "Earth",
-                "image" => $dirImage . "\Mom.png"
+                "image" => $dirImage . "/Mom.png"
             ],
             [
                 "id" => 11,
@@ -118,7 +118,7 @@ class CharactersController extends Controller
                 "gender" => "Male",
                 "occupation" => "Ambassador to Earth, Planet Express crew member",
                 "origin" => "Eternium",
-                "image" => $dirImage . "\Nibbler.png"
+                "image" => $dirImage . "/Nibbler.png"
             ],
             [
                 "id" => 12,
@@ -128,7 +128,7 @@ class CharactersController extends Controller
                 "gender" => "Male",
                 "occupation" => " Planet Express janitor",
                 "origin" => "Earth",
-                "image" => $dirImage . "\Scruffy.png"
+                "image" => $dirImage . "/Scruffy.png"
             ],
         ];
     }
