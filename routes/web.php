@@ -9,4 +9,3 @@ Route::get('/', function () {
 
 Route::get('characters', [ApiController::class, 'futuramaCharactersAPI'])->name('futuramaCharactersAPI');
 Route::get('character/{id}', [ApiController::class, 'futuramaSingleCharacterAPI'])->name('futuramaSingleCharacterAPI');
-Route::get('character/image/{id}', [ApiController::class, 'futuramaCharacterImageAPI'])->name('futuramaCharacterImageAPI');

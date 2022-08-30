@@ -18,7 +18,7 @@ class CharactersController extends Controller
                 "gender" => "Male",
                 "occupation" => "Delivery Boy/Pilot, Tentacle Pope of Universe Gamma (former)",
                 "origin" => "Earth",
-                "image" => $dirImage . "/Fry.png"
+                "image" => "https://api-futurama.herokuapp.com/assets/img/1.png"
             ],
             [
                 "id" => 2,

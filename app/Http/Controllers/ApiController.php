@@ -20,8 +20,4 @@ class ApiController extends Controller
        $singleCharacter = (array) $characters->characters()[$id - 1];
        return response()->json($singleCharacter);
     }
-    public function futuramaCharacterImageAPI ($id)
-    {
-      return view ('futuramaCharacterImage.futuramaCharacterImage');
-    }
 }
