@@ -23,7 +23,7 @@ class CharactersController extends Controller
                 "id" => 2,
                 "name" => "Turanga Leela",
                 "nickname" => "Leela",
-                "species" => "Mutant Human",
+                "species" => "Human (Mutant)",
                 "gender" => "Female",
                 "occupation" => "Captain of the Planet Express Ship",
                 "origin" => "Earth",
@@ -117,6 +117,16 @@ class CharactersController extends Controller
                 "gender" => "Male",
                 "occupation" => "Ambassador to Earth, Planet Express crew member",
                 "origin" => "Eternium",
+                "image" => ""
+            ],
+            [
+                "id" => 12,
+                "name" => "Scruffy Scruffington",
+                "nickname" => "Scruffy",
+                "species" => "Human (Zombie)",
+                "gender" => "Male",
+                "occupation" => " Planet Express janitor",
+                "origin" => "Earth",
                 "image" => ""
             ],
         ];
