@@ -16,7 +16,8 @@ class ApiController extends Controller
     }
     public function futuramaSingleCharacterAPI ($id)
     {
-       $character = new CharactersController();
-       return (array) $character->characters()[$id - 1];
+       $characters = new CharactersController();
+       $singleCharacter = (array) $characters->characters()[$id - 1];
+       return response()->json($singleCharacter);
     }
 }
