@@ -7,5 +7,5 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('characters', [ApiController::class, 'futuramaCharactersAPI'])->name('futuramaCharactersAPI');
-Route::get('character/{id}', [ApiController::class, 'futuramaSingleCharacterAPI'])->name('futuramaSingleCharacterAPI');
+Route::apiResource('characters', [ApiController::class, 'futuramaCharactersAPI']);
+Route::apiResource('character/{id}', [ApiController::class, 'futuramaSingleCharacterAPI']);
