@@ -7,7 +7,7 @@ ENDPOINTS:
 
 You can access the list of characters by using the **/characters** endpoint.
 
-GET https://api-futurama.herokuapp.com/characters
+GET ```https://api-futurama.herokuapp.com/characters```
 
 ```js
 fetch('https://api-futurama.herokuapp.com/characters')
@@ -22,7 +22,7 @@ fetch('https://api-futurama.herokuapp.com/characters')
 
 You can get a single character by adding the **id** as a parameter: **/character/2**
 
-GET https://api-futurama.herokuapp.com/character/1
+GET ```https://api-futurama.herokuapp.com/character/1```
 
 ```js
 fetch('https://api-futurama.herokuapp.com/character/4')
