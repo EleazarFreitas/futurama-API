@@ -1,0 +1,25 @@
+.btn:focus,
+.btn:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+main {
+    height: 90vh;
+}
+.endpointButton {
+    width: 46%;
+}
+.endpoints {
+  display: none;
+}
+.display {
+  display: block;
+}
+.close{
+  cursor: pointer;;
+}
+@media only screen and (max-width: 768px) {
+    .endpointButton {
+      width: 100%;;
+    }
+  }

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="shortcut icon" href="./assets/img/favicon.png">
+    <title>FUTURAMA API</title>
+</head>
+<body>
+    <header class="container d-flex align-items-center gap-3 py-3">
+        <a href="#">
+            <img src="./assets/img/logo.png" style="width: 50px;">
+        </a>
+    </header>
+
+    <main class="container d-flex justify-content-between align-items-center flex-wrap flex-lg-nowrap gap-5 py-5">
+
+        <div class="text-center text-lg-start mx-auto">
+            <h1 class="display-3 fw-bold mb-0" style="color: #3f8674;">FUTURAMA API</h1>
+            <span class="fs-2 d-block py-3">Try an API in your studies.
+                <br>
+                FUTURAMA API is <strong>simple</strong> and <strong>funny</strong>.
+                <br>
+                Enjoy it!
+            </span>
+            <div>
+                <button class="btn btn-danger me-3 mb-3 mb-lg-0 endpointButton" onclick="display()">Get started</button>
+                <a href="https://github.com/EleazarFreitas/futurama-API#readme" target="_blank" class="btn mx-auto endpointButton">Docs</a>
+                <div id="display" class="endpoints position-absolute top-50 start-50 translate-middle bg-light p-3 rounded shadow">
+                    <button onclick="closeDiv()" id="close" class="position-absolute top-0 start-100 translate-middle badge close rounded-pill btn btn-danger fs-5">
+                        X
+                    </button>
+                    <h3 class="text-center mb-3 h3">Endpoints</h3>
+                    <div class="card card-body mb-3">
+                        <span>Get all characters:
+                            <br>
+                            GET <strong> https://api-futurama.herokuapp.com/characters</strong>
+                        </span>
+                        <button class="btn btn-danger mt-3" onclick="copyCharactersEndpoint()"
+                                id="charactersEndpoint" value="https://api-futurama.herokuapp.com/characters">
+                                Copy
+                        </button>
+                    </div>
+                    <div class="card card-body mb-3">
+                        <span>Get a single character:
+                            <br>
+                            GET <strong> https://api-futurama.herokuapp.com/character/1</strong>
+                        </span>
+                        <button class="btn btn-danger mt-3" onclick="copySingleCharacterEndpoint()"
+                                id="singleCharacterEndpoint" value="https://api-futurama.herokuapp.com/character/1">
+                                Copy
+                        </button>
+                    </div>
+                    <span>For more details, checkout the <a class="text-decoration-none" href="https://github.com/EleazarFreitas/futurama-API#readme" target="_blank">documentation</a>.</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-6 mx-auto">
+            <img src="./assets/img/ship.gif" class="img-fluid">
+        </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script src="./assets/js/copyEndpoint.js"></script>
+</body>
+</html>
