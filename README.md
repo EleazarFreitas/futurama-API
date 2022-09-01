@@ -1,5 +1,14 @@
+<img src="https://raw.githubusercontent.com/EleazarFreitas/test/main/Futurama.png">
+<div>
+<h1 align="right">
+Good News, Everyone!
+</h1>
+<img src="https://raw.githubusercontent.com/EleazarFreitas/test/main/good-news-everyone.png" align="right" height="150px">
+</div>
 
-# Futurama API
+What about an API based on the television show Futurama?
+
+Hope you have fun! 😊
 
 ENDPOINTS:
 
