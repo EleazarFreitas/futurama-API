@@ -17,7 +17,9 @@ class ApiController extends Controller
     public function futuramaSingleCharacterAPI ($id)
     {
        $characters = new CharactersController();
-       $singleCharacter = (array) $characters->characters()[$id - 1];
-       return response()->json($singleCharacter);
+       $singleCharacter = (array) $characters->characters();
+       if ($id > count($singleCharacter))
+          return redirect("https://eleazarfreitas.github.io/futurama-API/");
+       return response()->json($singleCharacter[$id - 1]);
     }
 }
