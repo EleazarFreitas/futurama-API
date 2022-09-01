@@ -57,4 +57,4 @@ Expected json:
 ```
 <hr>
 
-Note: More characters and infos will be added to the API in my spare time!
+Note: More characters and info will be added to the API in my free time!
