@@ -8,10 +8,11 @@ main {
 }
 .btn-danger {
   background-color: #bd181d !important;
-  border: none !important;
+  border: 3px solid #fff781 !important;
 }
 .btn-danger:hover {
   background-color: #aa181d !important;
+  border: 3px solid #fff569 !important;
 }
 .endpointButton {
     width: 46%;
